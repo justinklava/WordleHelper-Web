@@ -1,0 +1,45 @@
+:root {
+    --main-bg: ivory;
+}
+
+html {
+    
+}
+
+body {
+    font-family: Garamond, "Times New Roman", serif;
+    
+}
+
+
+
+/* Classes */
+
+.green-letters {
+    color: white;
+    background-color: green;
+    text-align: center;
+    border: var(--main-bg) 2px solid;
+}
+
+.yellow-letters {
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    border: var(--main-bg) 2px solid;
+}
+
+/* IDs */
+
+#form-index input {
+    font-weight: bold;
+    font-size: 1.3em;
+    font-family: "Courier New", monospace;
+}
+#grey-letters {
+    background-color: lightgray;
+    color: black;
+    border: var(--main-bg) 2px solid;
+}
+
+

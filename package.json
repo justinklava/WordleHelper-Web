@@ -1,0 +1,19 @@
+{
+  "name": "wordlehelper",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Justin Klava",
+  "type": "module",
+  "main": "backend/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch-path=. backend/server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "url": "^0.11.4"
+  }
+}
