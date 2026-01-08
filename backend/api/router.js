@@ -13,10 +13,10 @@ api.post('/PossibleWords', (req, res, next) => {
     };
     const { yellowLetters, greenLetters, greyLetters } = req.body;
     const possibleWords = findWords(greenLetters, yellowLetters, greyLetters);
-    res.send(JSON.stringify({
+    res.json({
         possibleWords: possibleWords,
         greenLetters: greenLetters,
         yellowLetters: yellowLetters,
         greyLetters: greyLetters
-    }));
+    });
 });
