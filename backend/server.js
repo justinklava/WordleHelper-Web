@@ -17,7 +17,7 @@ app.use('/api', apiRouter); //route api calls to api router.js
 app.use(express.static(path.resolve('public'))); //serves public static files
 
 app.get('/', (req, res) => {
-  res.status(200).sendFile(path.resolve('public', 'index.html'));  //serve frontend index
+  res.status(200).sendFile(path.resolve('public', 'index.htm'));  //serve frontend index
 });
 
 app.get('/health', (req, res) => {
