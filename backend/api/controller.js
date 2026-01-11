@@ -6,7 +6,7 @@ export { findWords };
 
 const currentDirectory = path.dirname(fileURLToPath(import.meta.url));
 
-const dictionary = fs.readFileSync(path.resolve(currentDirectory, 'data', 'shuffled_real_wordles.txt'), 'utf8').split('\n');
+const dictionary = fs.readFileSync(path.resolve(currentDirectory, 'data', 'wordle-answers-alphabetical.txt'), 'utf8').split('\n');
 
 const findWords = (greenLetters, yellowLetters, greyLetters) => {
     const possibleWords = [];
