@@ -36,10 +36,25 @@ body {
     font-size: 1.3em;
     font-family: "Courier New", monospace;
 }
+
 #grey-letters {
     background-color: lightgray;
     color: black;
     border: var(--main-bg) 2px solid;
 }
 
+#possible-words {
+    border: black 2px solid;
+    min-height: 100px;
+    min-width: 100px;
+    max-height: 800px;
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    
+}
 
+#word {
+    padding: 3px;
+    margin: 2px 3px;
+}
