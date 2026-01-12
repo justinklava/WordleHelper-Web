@@ -4,8 +4,6 @@ const elmGreyLetters = document.getElementById('grey-letters');
 const elmSubmitButton = document.getElementById('submit');
 const elmPossibleWords = document.getElementById('possible-words');
 
-const hostURL = 'http://localhost:3131';
-
 for(const element of elmsYellowLetters) {
     element.addEventListener('input', (event) => { event.target.value = event.target.value.toUpperCase(); });
 }
