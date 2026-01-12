@@ -21,8 +21,8 @@ elmSubmitButton.addEventListener('click', async (event) => {
         greenLetters: [ 'd', 'i', '', '', ''],
         greyLetters: 'abc'
     };
-    const greenLetters = [ elmsGreenLetters[0].value, elmsGreenLetters[1].value, elmsGreenLetters[2].value, elmsGree>
-    const yellowLetters = [ elmsYellowLetters[0].value, elmsYellowLetters[1].value, elmsYellowLetters[2].value, elms>
+    const greenLetters = [ elmsGreenLetters[0].value, elmsGreenLetters[1].value, elmsGreenLetters[2].value, elmsGreenLetters[3].value, elmsGreenLetters[4].value ];
+    const yellowLetters = [ elmsYellowLetters[0].value, elmsYellowLetters[1].value, elmsYellowLetters[2].value, elmsYellowLetters[3].value, elmsYellowLetters[4].value ];
     const greyLetters = elmGreyLetters.value;
     const body = {
         greenLetters: greenLetters,
